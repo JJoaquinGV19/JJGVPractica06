@@ -1,0 +1,219 @@
+button{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+
+    padding: 1%;
+    margin-top: 2%;
+}
+
+NavegacionVscConGit {
+    display: inline;  
+}
+
+.datos {
+  table-layout: fixed;
+  width: 80%;
+  border-collapse: collapse;
+  border: 5px solid purple;
+}
+
+.datos {
+  border: 5px solid purple;
+  padding: 20px;
+}
+
+article{
+    margin: 30px;
+    padding: 30px;
+    background-color: wheat;
+    float:left;
+}
+
+body{
+    background-image: url("https://as01.epimg.net/meristation/imagenes/2019/06/11/header_image/734365241560283563.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+    h1 {
+        font-family: Arial; 
+        font-size: 50px; 
+        text-align: center;
+        COLOR: #333; 
+        text-shadow: 0px 0px 9px #686aec;
+    }
+    
+    #datos{text-align: left; 
+        font-family: Arial; 
+        font-size: 50px;
+        COLOR: #333; 
+        text-shadow: 0px 0px 9px #686aec;
+    }
+
+    h2 {
+        text-align: left; 
+        font-family: Arial Black; 
+        font-weight: bold; font-size: 30px; 
+        background: #202020; 
+        -webkit-background-clip: text; 
+        -moz-background-clip: text; 
+        background-clip: text; 
+        color: transparent; 
+        text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+        }
+    
+      h3 {
+        color: #04173A;
+        text-align: center; 
+        font-weight: normal;
+        font-size: 30px;
+        font-family: Georgia, Serif;
+        text-transform: upcase;
+      }  
+   
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+    }
+
+    #Reloj{
+        float: right;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+
+    img {
+        width: 150px; height: 150px;
+    };
+    
+    div {
+    float: left;
+    
+    
+    }
+   
+      
+    .clockdate-wrapper {
+    background-color: #333;
+    padding:25px;
+    max-width:350px;
+    width:100%;
+    text-align:center;
+    border-radius:5px;
+    margin:0 auto;
+    margin-top:15%;
+    }
+
+    #clock{
+        background-color:#333;
+        font-family: sans-serif;
+        font-size:40px;
+        text-align: center;
+        text-shadow:0px 0px 1px #fff;
+        color:#fff;
+    }
+
+    #clock span {
+        color:#888;
+        text-shadow:0px 0px 1px #333;
+        font-size:20px;
+        position:relative;
+        top:-17px;
+        left:-10px;
+    }
+
+    #date {
+        letter-spacing:10px;
+        font-size:14px;
+        font-family:arial,sans-serif;
+        color:#fff;
+    }
+
+    #pie {
+        height:50px;
+        line-height:50px;
+        background:black;
+        color:white;
+        text-align:center;
+        position: fixed;
+        bottom:0;
+        left:0;
+        width:100%;
+    }
+   
+ 
+svg{
+  margin: auto;
+  width: 600px;
+  height: 120px;
+  display: block;
+  position:relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  background: black;
+}
+
+
+
+
+
+.popup {
+    background-color: #ffffff;
+    color: #888888;
+    height: 245px;
+    left: 100%;
+    padding: 20px;
+    position: fixed;
+    right: 30%;
+    top: 25%;
+    width: 550px;
+    z-index: 101;
+    -moz-box-shadow: 0px 0px 10px 1px #888888;
+    -webkit-box-shadow: 0px 0px 10px 1px #888888;
+    box-shadow: 0px 0px 10px 1px #888888;
+    border-radius:10px;
+    -moz-border-radius:10px;
+}
+ 
+.overlay {
+    background: #000000;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    opacity:0.5;
+}
+ 
+a.close {
+    background: url("cancel.png") repeat scroll left top transparent;
+    cursor: pointer;
+    float: right;
+    height: 26px;
+    left: 32px;
+    position: relative;
+    top: -33px;
+    width: 26px;
+}

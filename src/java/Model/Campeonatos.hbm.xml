@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 12-mar-2021 1:09:06 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Campeonatos" table="CAMPEONATOS" schema="USUARIO" optimistic-lock="version">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" type="string">
+            <column name="NOMBRE" length="50" />
+        </property>
+        <property name="fecha" type="date">
+            <column name="FECHA" length="10" />
+        </property>
+        <property name="dniJugador" type="string">
+            <column name="DNI_JUGADOR" length="50" />
+        </property>
+        <property name="imagen" type="string">
+            <column name="IMAGEN" length="1000" />
+        </property>
+    </class>
+</hibernate-mapping>
